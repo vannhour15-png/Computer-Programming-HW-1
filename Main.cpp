@@ -9,6 +9,16 @@ int func1() {
     return z;
 }
 
+int func2() {
+    int x = 1;
+    int y = 2;
+    int z = x * y;
+
+    return z;
+    
+}
+    
+
 int main() {
     cout << func1() << endl;
 
