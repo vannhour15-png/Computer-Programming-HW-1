@@ -8,7 +8,13 @@ int func1() {
 
     return z;
 }
+int func3() {
+    int x = 3;
+    int y = 2;
+    int z = x - y;
 
+    return z;
+}
 int main() {
     cout << func1() << endl;
 
