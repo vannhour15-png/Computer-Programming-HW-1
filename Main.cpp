@@ -21,6 +21,7 @@ int func2() {
 
 int main() {
     cout << func1() << endl;
-
+    cout << func2() << endl;
+    
     return 0;
 };
